@@ -1,2 +1,2 @@
-# boj_solved
-This is a auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+## 코테 준비!
+기존에 사용하던 파이썬에서 자바와 더 친숙해지기 위해 자바로 푸는 중
