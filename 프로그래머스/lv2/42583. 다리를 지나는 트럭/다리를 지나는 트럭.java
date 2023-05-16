@@ -18,8 +18,6 @@ class Solution {
         boolean left = true;
         for (int l = 0; l < truck_weights.length * bridge_length + 1; l++ ) {
             
-            
-            
             if (pass == total) {
                 break;
             }
