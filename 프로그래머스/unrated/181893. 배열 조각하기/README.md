@@ -1,10 +1,10 @@
 # [unrated] 배열 조각하기 - 181893 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181893?language=python3) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181893?language=java) 
 
 ### 성능 요약
 
-메모리: 10.2 MB, 시간: 0.07 ms
+메모리: 74 MB, 시간: 0.09 ms
 
 ### 구분
 
