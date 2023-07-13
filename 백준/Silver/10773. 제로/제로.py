@@ -1,11 +1,13 @@
-k = int(input())
+import sys
 
-dots = []
-for _ in range(k):
-    a = int(input())
-    if a != 0:
-        dots.append(a)
+n = int(sys.stdin.readline().rstrip())
+stack = []
+
+for i in range(n):
+    num = int(sys.stdin.readline().rstrip())
+    if not num:
+        stack.pop()
     else:
-        dots.pop()
+        stack.append(num)
 
-print(sum(dots))
+print(sum(stack))
