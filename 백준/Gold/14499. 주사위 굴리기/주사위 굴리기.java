@@ -36,7 +36,7 @@ class Main {
     static class Dice {
         int top = 1, now = 6, x, y;
         int[] status = new int[7];
-        int[][] next = {{0, 5, 0}, {4, 6, 3}, {0, 2, 0}, {0, 1, 0}};
+        int[][] next = {{0, 2, 0}, {4, 6, 3}, {0, 5, 0}, {0, 1, 0}};
 
         void print() {
             for (int i = 0; i < 4; i++) {
