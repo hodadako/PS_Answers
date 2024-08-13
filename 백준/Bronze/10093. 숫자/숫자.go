@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"os"
 	"strconv"
+	"strings"
 )
 
 var (
 	A, B   int64
-	answer string
 	reader *bufio.Reader
 	writer *bufio.Writer
 )
@@ -21,18 +21,22 @@ func main() {
 
 	fmt.Fscanln(reader, &A, &B)
 	if A == B {
-		fmt.Fprintln(writer, B-A)
-	} else if A > B { 
+		fmt.Fprintln(writer, 0)
+	} else if A > B {
 		fmt.Fprintln(writer, A-B-1)
+		var sb strings.Builder
 		for i := B + 1; i < A; i++ {
-			answer += strconv.FormatInt(i, 10) + " "
+			sb.WriteString(strconv.FormatInt(i, 10))
+			sb.WriteString(" ")
 		}
-		fmt.Fprintln(writer, answer)
-    } else {
-        fmt.Fprintln(writer, B-A-1)
-        for i := A + 1; i < B; i++ {
-            answer += strconv.FormatInt(i, 10) + " "
-        }
-        fmt.Fprintln(writer, answer)
-    }
+		fmt.Fprintln(writer, strings.TrimSpace(sb.String()))
+	} else {
+		fmt.Fprintln(writer, B-A-1)
+		var sb strings.Builder
+		for i := A + 1; i < B; i++ {
+			sb.WriteString(strconv.FormatInt(i, 10))
+			sb.WriteString(" ")
+		}
+		fmt.Fprintln(writer, strings.TrimSpace(sb.String()))
+	}
 }
