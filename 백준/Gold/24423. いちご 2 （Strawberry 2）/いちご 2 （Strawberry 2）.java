@@ -13,7 +13,7 @@ public class Main {
 		@Override
 		public boolean equals(Object o) {
 			if (o instanceof Node) {
-				Node other = (Node) o;
+				Node other = (Node)o;
 				return this.x == other.x && this.y == other.y;
 			}
 			return false;
@@ -24,6 +24,7 @@ public class Main {
 			return (x + "," + y).hashCode();
 		}
 	}
+
 	static class FastReader {
 		BufferedReader br;
 		StringTokenizer st;
@@ -66,13 +67,16 @@ public class Main {
 				for (int y = -1; y <= 1; y++) {
 					int nx = a + x;
 					int ny = b + y;
-					if (nx >= 1 && nx < H - 1 && ny >= 1 && ny < W - 1) {
+					if (nx >= 0 && nx < H && ny >= 0 && ny < W ) {
 						Node key = new Node(nx, ny);
 						countMap.put(key, countMap.getOrDefault(key, 0) + 1);
-						answer = Math.max(answer, countMap.get(key));
 					}
 				}
 			}
+		}
+
+		for (Integer value : countMap.values()) {
+			answer = Math.max(answer, value);
 		}
 
 		System.out.println(answer);
