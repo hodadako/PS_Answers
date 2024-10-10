@@ -62,7 +62,6 @@ class Main {
 	static final long INF = Long.MAX_VALUE;
 	static long[] distances;
 	static HashMap<Integer, ArrayList<Node>> graph = new HashMap<>();
-	static HashMap<Integer, Boolean> primeMemo = new HashMap<>();
 
 	public static void main(String[] args) {
 		FastReader sc = new FastReader();
@@ -117,11 +116,6 @@ class Main {
 	}
 
 	static boolean isPrime(int num) {
-		if (primeMemo.containsKey(num)) {
-			return primeMemo.get(num);
-		}
-		boolean result = isPrime[num];
-		primeMemo.put(num, result);
-		return result;
+		return isPrime[num];
 	}
 }
