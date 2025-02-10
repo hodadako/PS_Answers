@@ -48,7 +48,7 @@ public class Main {
 		}
 
         long low = 0;
-        long high = (long)3e11;
+        long high = (long)23e11;
         long mid = 0;
         long count = 0;
         while (low < high) {
