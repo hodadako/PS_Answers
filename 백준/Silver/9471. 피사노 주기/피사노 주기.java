@@ -10,19 +10,15 @@ public class Main {
 			int n = fr.nextInt();
 			int m = fr.nextInt();
 			int answer = 0;
-			ArrayList<Long> list = new ArrayList<>();
 			long a = 1;
 			long b = 1;
-			for (int j = 1; j < 1000001; j++) {
+			for (int j = 2; j <= Integer.MAX_VALUE; j++) {
 				long temp = (a + b) % m;
 				a = b;
 				b = temp;
-				list.add(temp);
-				if (list.size() >= 3) {
-					if (list.get(j - 1) == list.get(1) && list.get(j - 2) == list.get(0)) {
-						answer = list.size() - 2;
-						break;
-					}
+				if (a == 1 && b == 1) {
+					answer = j - 1;
+					break;
 				}
 			}
 			System.out.println(n + " " + answer);
