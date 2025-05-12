@@ -7,12 +7,12 @@ public class Main {
 		FastReader fr = new FastReader();
 		P = fr.nextInt();
 		for (int i = 0; i < P; i++) {
-			int n = fr.nextInt();
-			int m = fr.nextInt();
-			int answer = 0;
+			long n = fr.nextLong();
+			long m = fr.nextLong();
+			long answer = 0;
 			long a = 1;
 			long b = 1;
-			for (int j = 2; j <= Integer.MAX_VALUE; j++) {
+			for (long j = 2; j <= m * m; j++) {
 				long temp = (a + b) % m;
 				a = b;
 				b = temp;
@@ -48,5 +48,9 @@ public class Main {
 	    int nextInt() {
 	        return Integer.parseInt(next());
 	    }
+
+		long nextLong() {
+			return Long.parseLong(next());
+		}
 	}
 }
