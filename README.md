@@ -1,3 +1,1 @@
-## 코테는 너무 맛없어
-난 정말 이해가 안돼 
-
+# [우린 어째서 코테가 된걸까..?](https://www.youtube.com/watch?v=SJUWooZnfVQ)
