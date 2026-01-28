@@ -3,16 +3,16 @@ import java.util.*;
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         int answer = 0;
-        StringBuilder sb = new StringBuilder();
+        int start = 0;
+        HashMap<Character, Integer> map = new HashMap<>();
         for (int i = 0; i < s.length(); i++) {
-            int index = sb.indexOf(s.charAt(i) + "");
-            if (index != -1) {
-                answer = Math.max(answer, sb.length());
-                sb.delete(0, index + 1);
+            char c = s.charAt(i); 
+            if (map.containsKey(c) && map.get(c) >= start) {
+                start = map.get(c) + 1;
             }
-            sb.append(s.charAt(i));
+            map.put(c, i);
+            answer = Math.max(answer, i - start + 1);
         }
-        answer = Math.max(answer, sb.length());
         return answer;
     }
 }
