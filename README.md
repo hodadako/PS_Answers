@@ -19,6 +19,7 @@
 |  |
 | ------- |
 | [0032-longest-valid-parentheses](https://github.com/hodadako/PS_Answers/tree/master/0032-longest-valid-parentheses) |
+| [0058-length-of-last-word](https://github.com/hodadako/PS_Answers/tree/master/0058-length-of-last-word) |
 ## Dynamic Programming
 |  |
 | ------- |
