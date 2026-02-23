@@ -25,6 +25,7 @@
 |  |
 | ------- |
 | [0032-longest-valid-parentheses](https://github.com/hodadako/PS_Answers/tree/master/0032-longest-valid-parentheses) |
+| [0070-climbing-stairs](https://github.com/hodadako/PS_Answers/tree/master/0070-climbing-stairs) |
 ## Stack
 |  |
 | ------- |
@@ -33,6 +34,7 @@
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/hodadako/PS_Answers/tree/master/0067-add-binary) |
+| [0070-climbing-stairs](https://github.com/hodadako/PS_Answers/tree/master/0070-climbing-stairs) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -57,4 +59,8 @@
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/hodadako/PS_Answers/tree/master/0100-same-tree) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/hodadako/PS_Answers/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
