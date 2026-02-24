@@ -11,6 +11,7 @@
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/hodadako/PS_Answers/tree/master/0035-search-insert-position) |
+| [0069-sqrtx](https://github.com/hodadako/PS_Answers/tree/master/0069-sqrtx) |
 ## Two Pointers
 |  |
 | ------- |
@@ -34,6 +35,7 @@
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/hodadako/PS_Answers/tree/master/0067-add-binary) |
+| [0069-sqrtx](https://github.com/hodadako/PS_Answers/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/hodadako/PS_Answers/tree/master/0070-climbing-stairs) |
 ## Bit Manipulation
 |  |
