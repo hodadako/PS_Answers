@@ -65,4 +65,8 @@
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/hodadako/PS_Answers/tree/master/0070-climbing-stairs) |
+## Linked List
+|  |
+| ------- |
+| [0083-remove-duplicates-from-sorted-list](https://github.com/hodadako/PS_Answers/tree/master/0083-remove-duplicates-from-sorted-list) |
 <!---LeetCode Topics End-->
