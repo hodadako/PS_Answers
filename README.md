@@ -7,6 +7,7 @@
 | ------- |
 | [0031-next-permutation](https://github.com/hodadako/PS_Answers/tree/master/0031-next-permutation) |
 | [0035-search-insert-position](https://github.com/hodadako/PS_Answers/tree/master/0035-search-insert-position) |
+| [0088-merge-sorted-array](https://github.com/hodadako/PS_Answers/tree/master/0088-merge-sorted-array) |
 ## Binary Search
 |  |
 | ------- |
@@ -16,6 +17,7 @@
 |  |
 | ------- |
 | [0031-next-permutation](https://github.com/hodadako/PS_Answers/tree/master/0031-next-permutation) |
+| [0088-merge-sorted-array](https://github.com/hodadako/PS_Answers/tree/master/0088-merge-sorted-array) |
 ## String
 |  |
 | ------- |
@@ -69,4 +71,8 @@
 |  |
 | ------- |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/hodadako/PS_Answers/tree/master/0083-remove-duplicates-from-sorted-list) |
+## Sorting
+|  |
+| ------- |
+| [0088-merge-sorted-array](https://github.com/hodadako/PS_Answers/tree/master/0088-merge-sorted-array) |
 <!---LeetCode Topics End-->
